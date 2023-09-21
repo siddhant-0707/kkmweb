@@ -149,6 +149,7 @@ body{
     animation-delay:0.5s;
     border:2px solid #000;
 }
+
 #hero .hero-btn:hover{
     background:#fae5ac;
     color:#000;
@@ -419,18 +420,21 @@ body{
     bottom:-48px;
     left:20px;
     right:20px;
-    background: linear-gradient(360deg,#b3f19b 0%,rgba(187,240,152,0.9)35%,
-    rgba(0,59,37,0.8)100%);
+    background: linear-gradient(360deg,#5dbdaf 100%,#5dbdaf 100%, #5dbdaf 100%);
     padding: 15px 0;
     border-radius: 4px;
 }
 .team .team-1 h4{
     font-weight: bold;
     margin-bottom:10px;
-    font-size:16px;
+    font-size:23px;
     color:#fff;
     position: relative;
     padding-bottom: 10px;
+}
+.team .team-1 h5{
+    font-weight: bold;
+    position: relative;
 }
 .team .team-1 h4:after{
     content:"";
